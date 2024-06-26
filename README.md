@@ -2,7 +2,12 @@
 
 Aplicación de clima desarrollada en React y hosteada en Netlify.
 
-🔗 [ClimaVision](https://climavision.netlify.app)
+🔗 Link directo a la Aplicación: [ClimaVision](https://climavision.netlify.app)
+----------------------------
+<a href="https://climavision.netlify.app">
+    <img src="https://i.pinimg.com/736x/06/c4/f7/06c4f70ec5931e2342e703e8a3f0a253.jpg" alt="alt imagen" width="150" height="150">
+</a>
+
 
 ## Descripción
 
