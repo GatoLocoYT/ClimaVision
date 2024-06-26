@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="Clima Visión">
+    <meta property="og:description" content="Tu Aplicación de Clima de Confianza">
+    <meta property="og:image" content="https://i.pinimg.com/736x/06/c4/f7/06c4f70ec5931e2342e703e8a3f0a253.jpg">
+    <meta property="og:url" content="https://climavision.netlify.app/">
+    <meta property="og:type" content="website">
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/2932/2932445.png ">
+    <title>ClimaVisión</title>
+    <!-- Enlaces a Pico CSS y Hoja de Estilos CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css" />
+    <link rel="stylesheet" href="./App.css" />
+    <!-- Enlaces a React, ReactDOM y Babel -->
+    <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+</head>
+
+<body>
+    <article data-theme="light">
+        <div id="root"></div>
+    </article>
+    <script type="text/babel" src="main.jsx"></script>
+    <script type="text/babel">
+        const { useState } = React;
+        const root = ReactDOM.createRoot(document.getElementById('root'));
+        root.render(<App />);
+    </script>
+</body>
+
+</html>
