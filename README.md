@@ -35,7 +35,7 @@ Para ejecutar esta aplicación localmente, sigue estos pasos:
 
 1. Clona el repositorio:
     ```bash
-    git clone https://github.com/tu-usuario/ClimaVision.git
+    git clone https://github.com/GatoLocoYT/ClimaVision.git
     ```
 
 2. Navega al directorio del proyecto:
